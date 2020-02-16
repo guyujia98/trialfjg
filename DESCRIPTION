@@ -1,0 +1,20 @@
+Package: trialfjg
+Type: Package
+Title: The first Package for Trial
+Version: 0.1.0
+Authors@R: person("Yujia", "Gu", email = "guguyuyujiajia@gmail.com",
+        role = c("aut", "cre"))
+Description: The first package I learnt to create.
+        Several functions and the Imports are all used for testing, not that
+        neseccery.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr

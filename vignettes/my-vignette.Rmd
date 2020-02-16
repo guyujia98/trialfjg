@@ -1,0 +1,38 @@
+---
+title: "trialfjg"
+author: "Yujia Gu"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+# Introduction
+---
+>This is my first R-package, only for testing
+
+# Functions
+---
+1. hello()
+    : the basic function we first met when we start to learn programming.
+1. authname() & authtele()
+    : call my name and contact adress. 
+1. dotprod()
+    : dot product for two vectors.
+
+```{r}
+#Add something
+1 + 2
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(trialfjg)
+```
