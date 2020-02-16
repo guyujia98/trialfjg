@@ -12,3 +12,7 @@ test_that("print author information", {
   expect_output(authname(), "Yujia Gu")
   expect_output(authtele(), "66666")
 })
+
+test_that("print author information", {
+  expect_output(hello(),"Hello" )
+})
